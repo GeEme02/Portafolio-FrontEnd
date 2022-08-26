@@ -1,0 +1,26 @@
+*{
+    width: 90%;
+    margin: 0cm 0.5cm 0cm 0.5cm;
+    padding: 0;
+}
+
+.titulo1{
+    color: #3a7728;
+}
+
+.inicio{
+    color:rgb(10, 95, 67);
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #3a7728;
+    color: #fff;
+}
